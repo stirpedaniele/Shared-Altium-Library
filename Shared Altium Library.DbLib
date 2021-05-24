@@ -37,7 +37,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=96|Library Ref0=77|Footprint Ref0=93|Comment0=80|Footprint Path0=133|Library Path0=168|Description0=331|Manufacturer0=93|Supplier 10=75|Supplier Part Number 10=142
+BrowserOrder_Visible=Part Number0=106|Library Ref0=77|Footprint Ref0=93|Comment0=80|Footprint Path0=133|Library Path0=168|Description0=380|Manufacturer0=93|Supplier 10=75|Supplier Part Number 10=142
 [Table3]
 SchemaName=
 TableName=FTDI
@@ -46,7 +46,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Footprint Ref0=92|Comment0=80|Footprint Path0=129|Library Path0=112|Description0=292|Manufacturer0=93|Supplier 10=75|Supplier Part Number 10=142
+BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Footprint Ref0=92|Comment0=80|Footprint Path0=129|Library Path0=112|Description0=110|Manufacturer0=93|Supplier 10=75|Supplier Part Number 10=142
 [Table4]
 SchemaName=
 TableName=Fujitsu
@@ -73,7 +73,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Footprint Ref0=92|Comment0=80|Footprint Path0=127|Library Path0=142|Description0=412|Manufacturer0=93|Supplier 10=75|Supplier Part Number 10=142
+BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Footprint Ref0=92|Comment0=80|Footprint Path0=127|Library Path0=142|Description0=230|Manufacturer0=93|Supplier 10=75|Supplier Part Number 10=142
 [Table7]
 SchemaName=
 TableName=Microchip
@@ -82,7 +82,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=97|Library Ref0=77|Footprint Ref0=92|Comment0=80|Footprint Path0=127|Library Path0=141|Description0=299|Manufacturer0=93|Supplier 10=75|Supplier Part Number 10=151
+BrowserOrder_Visible=Part Number0=97|Library Ref0=77|Footprint Ref0=92|Comment0=80|Footprint Path0=127|Library Path0=141|Description0=242|Manufacturer0=93|Supplier 10=75|Supplier Part Number 10=151
 [Table8]
 SchemaName=
 TableName=Murata
@@ -100,7 +100,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=95|Library Ref0=77|Footprint Ref0=92|Comment0=80|Footprint Path0=127|Library Path0=187|Description0=299|Manufacturer0=105|Supplier 10=75|Supplier Part Number 10=142
+BrowserOrder_Visible=Part Number0=95|Library Ref0=77|Footprint Ref0=92|Comment0=80|Footprint Path0=127|Library Path0=187|Description0=242|Manufacturer0=105|Supplier 10=75|Supplier Part Number 10=142
 [Table10]
 SchemaName=
 TableName=STMicroelectronics
