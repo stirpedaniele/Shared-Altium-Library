@@ -1,1 +1,8 @@
 *.ldb
+*.cmp
+*.doc
+*.err
+*.rep
+*.wmf
+__Previews
+History
