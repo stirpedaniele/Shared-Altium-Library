@@ -1,8 +1,17 @@
 *.ldb
 *.cmp
-*.doc
 *.err
 *.rep
 *.wmf
+*.drc
+*.html
+*.ldp
+*.apr
+*.apr_lib
+*.extrep
+*.log
+*.PrjPcbStructure
+Status*
+Project Logs*
 __Previews
 History
