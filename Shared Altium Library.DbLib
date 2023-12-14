@@ -82,7 +82,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=139|Library Ref0=120|Footprint Ref0=139|Footprint Path0=188|Library Path0=166|Description0=163|Comment0=121|Manufacturer0=143|Supplier 10=116|Supplier Part Number 10=220
+BrowserOrder_Visible=Part Number0=139|Library Ref0=120|Footprint Ref0=139|Footprint Path0=188|Library Path0=166|Description0=586|Comment0=121|Manufacturer0=143|Supplier 10=116|Supplier Part Number 10=220
 [Table8]
 SchemaName=
 TableName=Fujitsu
@@ -145,7 +145,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=149|Library Ref0=120|Footprint Ref0=139|Footprint Path0=185|Library Path0=207|Description0=355|Comment0=121|Manufacturer0=143|Supplier 10=116|Supplier Part Number 10=232
+BrowserOrder_Visible=Part Number0=149|Library Ref0=120|Footprint Ref0=139|Footprint Path0=185|Library Path0=207|Description0=810|Comment0=121|Manufacturer0=143|Supplier 10=116|Supplier Part Number 10=232
 [Table15]
 SchemaName=
 TableName=Micron Technology Inc
@@ -184,6 +184,15 @@ BrowserOrder_Grouping=
 BrowserOrder_Visible=Part Number0=139|Library Ref0=120|Footprint Ref0=139|Comment0=121|Footprint Path0=273|Library Path0=219|Description0=271|Manufacturer0=143|Supplier 10=116|Supplier Part Number 10=220
 [Table19]
 SchemaName=
+TableName=RAK
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=139|Library Ref0=120|Footprint Ref0=139|Footprint Path0=178|Library Path0=163|Description0=1451|Manufacturer0=143|Comment0=121|Supplier 10=116|Supplier Part Number 10=256
+[Table20]
+SchemaName=
 TableName=RECOM
 Enabled=True
 UserWhere=0
@@ -191,7 +200,7 @@ UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
 BrowserOrder_Visible=Part Number0=139|Library Ref0=120|Footprint Ref0=139|Footprint Path0=205|Library Path0=265|Description0=143|Comment0=121|Manufacturer0=143|Supplier 10=116|Supplier Part Number 10=220
-[Table20]
+[Table21]
 SchemaName=
 TableName=STMicroelectronics
 Enabled=True
@@ -199,8 +208,8 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=149|Library Ref0=136|Footprint Ref0=139|Footprint Path0=188|Library Path0=274|Description0=982|Comment0=121|Manufacturer0=152|Supplier 10=116|Supplier Part Number 10=220
-[Table21]
+BrowserOrder_Visible=Part Number0=149|Library Ref0=136|Footprint Ref0=139|Footprint Path0=188|Library Path0=274|Description0=995|Comment0=121|Manufacturer0=152|Supplier 10=116|Supplier Part Number 10=220
+[Table22]
 SchemaName=
 TableName=Samtec
 Enabled=True
@@ -209,7 +218,7 @@ UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
 BrowserOrder_Visible=Part Number0=169|Library Ref0=120|Footprint Ref0=169|Comment0=121|Footprint Path0=203|Library Path0=219|Description0=310|Manufacturer0=143|Supplier 10=116|Supplier Part Number 10=220
-[Table22]
+[Table23]
 SchemaName=
 TableName=Seiko Instruments Inc
 Enabled=True
@@ -218,7 +227,7 @@ UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
 BrowserOrder_Visible=Part Number0=139|Library Ref0=160|Footprint Ref0=139|Comment0=121|Footprint Path0=311|Library Path0=205|Description0=325|Manufacturer0=174|Supplier 10=116|Supplier Part Number 10=220
-[Table23]
+[Table24]
 SchemaName=
 TableName=Sensirion
 Enabled=True
@@ -227,7 +236,7 @@ UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
 BrowserOrder_Visible=Part Number0=139|Library Ref0=120|Footprint Ref0=139|Comment0=121|Footprint Path0=216|Library Path0=201|Description0=651|Manufacturer0=143|Supplier 10=116|Supplier Part Number 10=220
-[Table24]
+[Table25]
 SchemaName=
 TableName=TAG-CONNECT LLC
 Enabled=True
@@ -236,7 +245,7 @@ UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
 BrowserOrder_Visible=Part Number0=154|Library Ref0=154|Footprint Ref0=154|Comment0=121|Footprint Path0=297|Library Path0=282|Description0=227|Manufacturer0=160|Supplier 10=116|Supplier Part Number 10=220
-[Table25]
+[Table26]
 SchemaName=
 TableName=Texas Instruments
 Enabled=True
@@ -244,7 +253,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=200|Library Ref0=120|Footprint Ref0=139|Footprint Path0=186|Library Path0=270|Description0=688|Comment0=121|Manufacturer0=148|Supplier 10=137|Supplier Part Number 10=251
+BrowserOrder_Visible=Part Number0=200|Library Ref0=120|Footprint Ref0=139|Footprint Path0=197|Library Path0=270|Description0=1143|Comment0=121|Manufacturer0=148|Supplier 10=116|Supplier Part Number 10=251
 [FieldMap1]
 Options=FieldName=Allegro MicroSystems.Part Number|TableNameOnly=Allegro MicroSystems|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -498,100 +507,114 @@ Options=FieldName=Phoenix Contact.Library Path|TableNameOnly=Phoenix Contact|Fie
 [FieldMap126]
 Options=FieldName=Phoenix Contact.Description|TableNameOnly=Phoenix Contact|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap127]
-Options=FieldName=RECOM.Part Number|TableNameOnly=RECOM|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RAK.Part Number|TableNameOnly=RAK|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap128]
-Options=FieldName=RECOM.Library Ref|TableNameOnly=RECOM|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RAK.Library Ref|TableNameOnly=RAK|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap129]
-Options=FieldName=RECOM.Footprint Ref|TableNameOnly=RECOM|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RAK.Footprint Ref|TableNameOnly=RAK|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap130]
-Options=FieldName=RECOM.Footprint Path|TableNameOnly=RECOM|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RAK.Footprint Path|TableNameOnly=RAK|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap131]
-Options=FieldName=RECOM.Library Path|TableNameOnly=RECOM|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RAK.Library Path|TableNameOnly=RAK|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap132]
-Options=FieldName=RECOM.Description|TableNameOnly=RECOM|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RAK.Description|TableNameOnly=RAK|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap133]
-Options=FieldName=RECOM.Comment|TableNameOnly=RECOM|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RAK.Comment|TableNameOnly=RAK|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap134]
-Options=FieldName=STMicroelectronics.Part Number|TableNameOnly=STMicroelectronics|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RECOM.Part Number|TableNameOnly=RECOM|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap135]
-Options=FieldName=STMicroelectronics.Library Ref|TableNameOnly=STMicroelectronics|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RECOM.Library Ref|TableNameOnly=RECOM|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap136]
-Options=FieldName=STMicroelectronics.Footprint Ref|TableNameOnly=STMicroelectronics|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RECOM.Footprint Ref|TableNameOnly=RECOM|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap137]
-Options=FieldName=STMicroelectronics.Footprint Path|TableNameOnly=STMicroelectronics|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RECOM.Footprint Path|TableNameOnly=RECOM|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap138]
-Options=FieldName=STMicroelectronics.Library Path|TableNameOnly=STMicroelectronics|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RECOM.Library Path|TableNameOnly=RECOM|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap139]
-Options=FieldName=STMicroelectronics.Description|TableNameOnly=STMicroelectronics|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RECOM.Description|TableNameOnly=RECOM|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap140]
-Options=FieldName=STMicroelectronics.Comment|TableNameOnly=STMicroelectronics|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RECOM.Comment|TableNameOnly=RECOM|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap141]
-Options=FieldName=Samtec.Part Number|TableNameOnly=Samtec|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=STMicroelectronics.Part Number|TableNameOnly=STMicroelectronics|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap142]
-Options=FieldName=Samtec.Library Ref|TableNameOnly=Samtec|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=STMicroelectronics.Library Ref|TableNameOnly=STMicroelectronics|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap143]
-Options=FieldName=Samtec.Footprint Ref|TableNameOnly=Samtec|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=STMicroelectronics.Footprint Ref|TableNameOnly=STMicroelectronics|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap144]
-Options=FieldName=Samtec.Comment|TableNameOnly=Samtec|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=STMicroelectronics.Footprint Path|TableNameOnly=STMicroelectronics|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap145]
-Options=FieldName=Samtec.Footprint Path|TableNameOnly=Samtec|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=STMicroelectronics.Library Path|TableNameOnly=STMicroelectronics|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap146]
-Options=FieldName=Samtec.Library Path|TableNameOnly=Samtec|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=STMicroelectronics.Description|TableNameOnly=STMicroelectronics|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap147]
-Options=FieldName=Samtec.Description|TableNameOnly=Samtec|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=STMicroelectronics.Comment|TableNameOnly=STMicroelectronics|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap148]
-Options=FieldName=Seiko Instruments Inc.Part Number|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Samtec.Part Number|TableNameOnly=Samtec|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap149]
-Options=FieldName=Seiko Instruments Inc.Library Ref|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Samtec.Library Ref|TableNameOnly=Samtec|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap150]
-Options=FieldName=Seiko Instruments Inc.Footprint Ref|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Samtec.Footprint Ref|TableNameOnly=Samtec|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap151]
-Options=FieldName=Seiko Instruments Inc.Comment|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Samtec.Comment|TableNameOnly=Samtec|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap152]
-Options=FieldName=Seiko Instruments Inc.Footprint Path|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Samtec.Footprint Path|TableNameOnly=Samtec|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap153]
-Options=FieldName=Seiko Instruments Inc.Library Path|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Samtec.Library Path|TableNameOnly=Samtec|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap154]
-Options=FieldName=Seiko Instruments Inc.Description|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Samtec.Description|TableNameOnly=Samtec|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap155]
-Options=FieldName=Sensirion.Part Number|TableNameOnly=Sensirion|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Seiko Instruments Inc.Part Number|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap156]
-Options=FieldName=Sensirion.Library Ref|TableNameOnly=Sensirion|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Seiko Instruments Inc.Library Ref|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap157]
-Options=FieldName=Sensirion.Footprint Ref|TableNameOnly=Sensirion|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Seiko Instruments Inc.Footprint Ref|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap158]
-Options=FieldName=Sensirion.Comment|TableNameOnly=Sensirion|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Seiko Instruments Inc.Comment|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap159]
-Options=FieldName=Sensirion.Footprint Path|TableNameOnly=Sensirion|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Seiko Instruments Inc.Footprint Path|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap160]
-Options=FieldName=Sensirion.Library Path|TableNameOnly=Sensirion|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Seiko Instruments Inc.Library Path|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap161]
-Options=FieldName=Sensirion.Description|TableNameOnly=Sensirion|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Seiko Instruments Inc.Description|TableNameOnly=Seiko Instruments Inc|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap162]
-Options=FieldName=TAG-CONNECT LLC.Part Number|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Sensirion.Part Number|TableNameOnly=Sensirion|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap163]
-Options=FieldName=TAG-CONNECT LLC.Library Ref|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Sensirion.Library Ref|TableNameOnly=Sensirion|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap164]
-Options=FieldName=TAG-CONNECT LLC.Footprint Ref|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Sensirion.Footprint Ref|TableNameOnly=Sensirion|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap165]
-Options=FieldName=TAG-CONNECT LLC.Comment|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Sensirion.Comment|TableNameOnly=Sensirion|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap166]
-Options=FieldName=TAG-CONNECT LLC.Footprint Path|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Sensirion.Footprint Path|TableNameOnly=Sensirion|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap167]
-Options=FieldName=TAG-CONNECT LLC.Library Path|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Sensirion.Library Path|TableNameOnly=Sensirion|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap168]
-Options=FieldName=TAG-CONNECT LLC.Description|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Sensirion.Description|TableNameOnly=Sensirion|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap169]
-Options=FieldName=Texas Instruments.Part Number|TableNameOnly=Texas Instruments|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=TAG-CONNECT LLC.Part Number|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap170]
-Options=FieldName=Texas Instruments.Library Ref|TableNameOnly=Texas Instruments|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=TAG-CONNECT LLC.Library Ref|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap171]
-Options=FieldName=Texas Instruments.Footprint Ref|TableNameOnly=Texas Instruments|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=TAG-CONNECT LLC.Footprint Ref|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap172]
-Options=FieldName=Texas Instruments.Footprint Path|TableNameOnly=Texas Instruments|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=TAG-CONNECT LLC.Comment|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap173]
-Options=FieldName=Texas Instruments.Library Path|TableNameOnly=Texas Instruments|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=TAG-CONNECT LLC.Footprint Path|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap174]
-Options=FieldName=Texas Instruments.Description|TableNameOnly=Texas Instruments|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=TAG-CONNECT LLC.Library Path|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap175]
+Options=FieldName=TAG-CONNECT LLC.Description|TableNameOnly=TAG-CONNECT LLC|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap176]
+Options=FieldName=Texas Instruments.Part Number|TableNameOnly=Texas Instruments|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap177]
+Options=FieldName=Texas Instruments.Library Ref|TableNameOnly=Texas Instruments|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap178]
+Options=FieldName=Texas Instruments.Footprint Ref|TableNameOnly=Texas Instruments|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap179]
+Options=FieldName=Texas Instruments.Footprint Path|TableNameOnly=Texas Instruments|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap180]
+Options=FieldName=Texas Instruments.Library Path|TableNameOnly=Texas Instruments|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap181]
+Options=FieldName=Texas Instruments.Description|TableNameOnly=Texas Instruments|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap182]
 Options=FieldName=Texas Instruments.Comment|TableNameOnly=Texas Instruments|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
